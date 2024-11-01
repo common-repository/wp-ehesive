@@ -1,0 +1,311 @@
+.wp_ehesive_page #wpcontent {
+	padding-left: 0;
+}
+
+.wp_ehesive_page .wrap {
+	margin: 0;
+}
+
+.wp_ehesive_page .update-nag ,
+.wp_ehesive_page .error,
+.wp_ehesive_page .updated {
+	display:none;
+}
+
+.wp_ehesive_page .welcome-panel {
+	margin: 0;
+	padding: 10px;
+	background: url(../images/bg_testimonials.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 0;
+}
+
+.wp_ehesive_page .welcome-panel .welcome-panel-column .logo a {
+	display: block;
+	background: url(../images/logo-member.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 200px;
+	height: 70px;
+	text-align: center;
+}
+
+.wp_ehesive_page .welcome-panel-column,
+.wp_ehesive_page .welcome-panel-column:first-child {
+	width: 33.333333%;
+}
+
+.wp_ehesive_page .nav-tab-wrapper,
+.wp_ehesive_page .wrap .nav-tab-wrapper,
+.wp_ehesive_page .nav-tab-wrapper {
+	background: #e7840f;
+	padding: 9px 15px;
+	margin: 0;
+}
+
+.wp_ehesive_page .nav-tab,
+.wp_ehesive_page .nav-tab:focus,
+.wp_ehesive_page .nav-tab:focus:active {
+	background: #5ec6a3;
+	border: 0;
+	color: #fff;
+	margin: 3px 7px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.5s ease-out 0.3s;
+	transition: all 0.5s ease-out 0.3s; 
+}
+
+.wp_ehesive_page .nav-tab:hover {
+	background: #005f59;
+}
+
+.wp_ehesive_page .nav-tab-active,
+.wp_ehesive_page .nav-tab-active:focus,
+.wp_ehesive_page .nav-tab-active:focus:active,
+.wp_ehesive_page .nav-tab-active:hover {
+	background: #005f59;
+}
+
+.wp_ehesive_page .nav-tab-ver {
+	float:  right;
+	font-size:  15px;
+	font-weight:  bold;
+	line-height:  35px;
+}
+
+.wp_ehesive_page #wp,
+.wp_ehesive_page #wpfooter,
+.wp_ehesive_page,
+.wp_ehesive_page #wpwrap {
+	background: #fff;
+}
+
+#monsterinsights-settings-pages {
+	padding: 20px 0;
+}
+
+.wp_ehesive_page div.wrap {
+	margin: 0 20px;
+}
+
+.wp_ehesive_page div.wrap .postbox-container.content {
+	width: 75%;
+	margin-right: 15px;
+	padding: 15px 0;
+}
+
+@media screen and (max-width: 1380px) {
+	.wp_ehesive_page div.wrap .postbox-container.content {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.wp_ehesive_page div.wrap .postbox-container.content {
+		width: 100%;
+	}
+	.wp_ehesive_page div.wrap .postbox-container.aside {
+		width: 100%;
+	}
+}
+
+.wp_ehesive_page div.wrap .postbox-container.aside {
+	padding: 15px 0;
+	float: right;
+}
+
+.wp_ehesive_page div.wrap .postbox-container.aside #side-sortables {
+	width: 280px;
+	min-height: 250px;
+}
+
+.wp_ehesive_page input[type="text"],
+.wp_ehesive_page input[type="number"],
+.wp_ehesive_page input[type="password"],
+.wp_ehesive_page input[type=email],
+.wp_ehesive_page select,
+.wp_ehesive_page textarea {
+	width: 350px;
+	padding-right: 0;
+	font-size: 13px;
+	border-width: 2px;
+	border-radius: 3px;
+	border-color: #e4e9ee;
+	box-shadow: none;
+}
+
+.wp_ehesive_page input[type="submit"],
+.wp_ehesive_page input[type="button"],
+.wp_ehesive_page button[type="button"] {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	padding: 0 16px 1px;
+	height: 33px;
+	line-height: 30px;
+	text-decoration: none;
+	text-shadow: none;
+	font-weight: 600;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.wp_ehesive_page .button-primary {
+	background: #5ec6a3;
+	border-color: #005f59;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #fff;
+	border: 1px solid #5ec6a3;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #5ec6a3;
+	-webkit-transition: all 0.5s ease-out 0.3s;
+	transition: all 0.5s ease-out 0.3s; 
+}
+
+.wp_ehesive_page .button-primary:hover {
+	background: #005f59;
+	border-color: #005f59;
+	color: #fff;
+}
+
+.wp_ehesive_page .right-sidebar-btn {
+	color: #fff;
+	display: block;
+	background: #5ec6a3;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	-webkit-transition: all 0.5s ease-out 0.3s;
+	transition: all 0.5s ease-out 0.3s; 
+}
+
+.wp_ehesive_page .right-sidebar-btn:hover {
+	color: #fff;
+	background-color: #00645e;
+}
+
+.wp_ehesive_page .aside .postbox .inside {
+	padding: 0 12px 0;
+}
+
+.wp_ehesive_page #shortcode-result-row {
+	display: none;
+}
+
+.wp_ehesive_page .notice {
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.wp_ehesive_page .modal {
+	width: 300px; 
+	height: 300px;
+	border-radius: 5px;
+	border: 3px #000 solid;
+	background: #fff;
+	position: fixed;
+	top: 45%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -150px;
+	display: none;
+	opacity: 0;
+	z-index: 10000;
+	padding: 20px 10px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.wp_ehesive_page .modal table {
+	margin-bottom: 20px;
+}
+
+.wp_ehesive_page .modal table td {
+	padding: 0;
+}
+
+.wp_ehesive_page .modal input[type="text"] {
+	width: 100%;
+}
+
+.wp_ehesive_page .modal-btn {
+	width: 100%;
+	max-width: 350px;
+	font-size: 13px;
+	height: 30px;
+	margin: 0;
+	line-height: 30px;
+}
+ 
+.wp_ehesive_page .modal #modal_close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: block;
+}
+
+.wp_ehesive_page .modal #modal_close:before {
+	font: 400 30px/1 dashicons!important;
+	color: #555d66;
+	display: inline-block;
+	content: "\f335";
+	font-weight: 300;
+	margin-top: 1px;
+}
+ 
+.wp_ehesive_page #overlay {
+	z-index:9999;
+	position:fixed;
+	background-color:#000;
+	opacity:0.8;
+	-moz-opacity:0.8;
+	filter:alpha(opacity=80);
+	width:100%; 
+	height:100%;
+	top:0;
+	left:0;
+	cursor:pointer;
+	display:none;
+}
+
+.wp_ehesive_page .form-table .required:after {
+	content: "*";
+	color: #ff0000;
+	margin-left: 5px;
+}
+
+.wp_ehesive_page .result-shortcode {
+	color: #000000;
+}
+
+.wp_ehesive_page .copy-to-clipboard {
+	display: block;
+}
+
+.wp_ehesive_page .copy-to-clipboard-done {
+	display: none;
+	line-height: 34px;
+}
+
+.wp_ehesive_page .copy-to-clipboard-done.show {
+	display: inline-block;
+}
